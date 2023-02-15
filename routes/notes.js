@@ -14,13 +14,14 @@ notes.get('/', (req, res) => {
 // DELETE Route for a specific note
 notes.delete('/:note_id', (req, res) => {
   const noteId = req.params.note_id;
+  console.log(noteId);
   readFromFile('./db/db.json')
     .then((data) => JSON.parse(data))
     .then((json) => {
-      console.log("I'm HERE!");
+
       // Make a new array of all notes except the one with the ID provided in the URL
       const result = json.filter((note) => note.note_id !== noteId);
-
+      console.log(result);
       // Save that array to the filesystem
       writeToFile('./db/db.json', result);
 
