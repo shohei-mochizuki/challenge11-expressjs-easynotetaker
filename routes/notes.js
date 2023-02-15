@@ -8,20 +8,20 @@ const {
 
 // GET Route for retrieving all the notes
 notes.get('/', (req, res) => {
-  readFromFile('../db/db.json').then((data) => res.json(JSON.parse(data)));
+  readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
 // DELETE Route for a specific note
 notes.delete('/:note_id', (req, res) => {
   const noteId = req.params.note_id;
-  readFromFile('../db/db.json')
+  readFromFile('./db/db.json')
     .then((data) => JSON.parse(data))
     .then((json) => {
       // Make a new array of all notes except the one with the ID provided in the URL
       const result = json.filter((note) => note.note_id !== noteId);
 
       // Save that array to the filesystem
-      writeToFile('../db/db.json', result);
+      writeToFile('./db/db.json', result);
 
       // Respond to the DELETE request
       res.json(`Item ${noteId} has been deleted 🗑️`);
@@ -41,7 +41,7 @@ notes.post('/', (req, res) => {
       note_id: uuidv4(),
     };
 
-    readAndAppend(newNote, '../db/db.json')
+    readAndAppend(newNote, './db/db.json')
     res.json(`Note added successfully 🚀`);
   } else {
     res.error('Error in adding note');
