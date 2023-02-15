@@ -6,18 +6,18 @@ const {
   writeToFile,
 } = require('../helpers/fsUtils');
 
-// GET Route for retrieving all the tips
+// GET Route for retrieving all the notes
 notes.get('/', (req, res) => {
   readFromFile('../db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
-// DELETE Route for a specific tip
+// DELETE Route for a specific note
 notes.delete('/:note_id', (req, res) => {
   const noteId = req.params.note_id;
   readFromFile('../db/db.json')
     .then((data) => JSON.parse(data))
     .then((json) => {
-      // Make a new array of all tips except the one with the ID provided in the URL
+      // Make a new array of all notes except the one with the ID provided in the URL
       const result = json.filter((note) => note.note_id !== noteId);
 
       // Save that array to the filesystem
@@ -28,7 +28,7 @@ notes.delete('/:note_id', (req, res) => {
     });
 });
 
-// POST Route for a new UX/UI tip
+// POST Route for a new note
 notes.post('/', (req, res) => {
   console.log(req.body);
 
@@ -42,10 +42,10 @@ notes.post('/', (req, res) => {
     };
 
     readAndAppend(newNote, '../db/db.json')
-    res.json(`Tip added successfully 🚀`);
+    res.json(`Note added successfully 🚀`);
   } else {
     res.error('Error in adding note');
   }
 });
 
-module.exports = tips;
+module.exports = notes;
