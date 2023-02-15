@@ -1,4 +1,4 @@
-# Challenge 10 - OOP : Command line logo maker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Challenge 11 - Express : Easy Notetaker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## DESCRIPTION 
 This application enables you to create a logo (SVG file) by answering to prompts in command line. You can choose the following items in your logo:
