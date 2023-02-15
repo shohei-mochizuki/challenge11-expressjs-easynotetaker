@@ -18,10 +18,10 @@ notes.delete('/:note_id', (req, res) => {
     .then((data) => JSON.parse(data))
     .then((json) => {
       // Make a new array of all tips except the one with the ID provided in the URL
-      const result = json.filter((tip) => tip.tip_id !== tipId);
+      const result = json.filter((note) => note.note_id !== noteId);
 
       // Save that array to the filesystem
-      writeToFile('./db/tips.json', result);
+      writeToFile('../db/db.json', result);
 
       // Respond to the DELETE request
       res.json(`Item ${tipId} has been deleted 🗑️`);
@@ -38,7 +38,7 @@ tips.post('/', (req, res) => {
     const newNote = {
       title,
       text,
-      tip_id: uuidv4(),
+      note_id: uuidv4(),
     };
 
     readAndAppend(newNote, '../db/db.json')
