@@ -29,7 +29,7 @@ notes.delete('/:note_id', (req, res) => {
 });
 
 // POST Route for a new UX/UI tip
-tips.post('/', (req, res) => {
+notes.post('/', (req, res) => {
   console.log(req.body);
 
   const { title, text } = req.body;
