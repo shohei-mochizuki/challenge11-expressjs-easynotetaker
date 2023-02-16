@@ -11,7 +11,7 @@ This application enables you to create a list of notes with only a few steps! Go
 [LICENSE](#license)<br>
 [CONTRIBUTION](#contribution)<br>
 [TESTS](#tests)<br>
-[SCREENSHOT](#screenshot)<br>
+[SCREENSHOTS](#screenshots)<br>
 [QUESTIONS](#questions)
 
 ## INSTALLATION 
@@ -62,7 +62,7 @@ Please copy the following files and folder to your computer and test this applic
 └── server.js  
 ``` 
 
-## SCREENSHOT
+## SCREENSHOTS
 ![image](https://user-images.githubusercontent.com/121307266/219237671-9f8bb3c5-ae24-471c-88ba-cba0db10c897.png)
 ![image](https://user-images.githubusercontent.com/121307266/219237784-bc10f76e-cc21-4120-8977-986de19b35d1.png)
 ![image](https://user-images.githubusercontent.com/121307266/219237884-62d6939e-df14-467e-acf4-a2ca46258afa.png)
