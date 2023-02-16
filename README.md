@@ -16,7 +16,7 @@ This application enables you to create a list of notes with only a few steps! Go
 
 ## INSTALLATION 
 ### HEROKU
-If you use the application on Heroku, no installation is needed. Go to the webpage directly: <br>
+If you use the application on Heroku, no installation is needed. Go to the webpage directly:
 ### LOCAL COMPUTER
 If you'd like to use the application on your local computer, follow the guidelines below:<br>
 This application requires 1.JavaScript, 2.Node.JS (version 16, not the latest) and 3.Node package manager to run. In a blank folder, please put necessary files (please refer to the TESTS section for the details) and open the command line. In the command line, move to this folder and then type "npm install". Make sure that a folder called "node_modules" and a file called package-lock.json are created. This application uses the following libraries:
@@ -38,6 +38,9 @@ permit persons to whom the Software is furnished to do so.
 Please feel free to develop this application by forking the GitHub repository and sending me pull requests. You can also contact me.
 
 ## TESTS 
+### HEROKU
+If you use the application on Heroku, no installation is needed. Go to the webpage directly:
+### LOCAL COMPUTER
 Please copy the following files and folder to your computer and test this application:
 ```md
 .
