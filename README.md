@@ -12,6 +12,7 @@ Save them by clicking the file icon (at top right corner of the page) and delete
 [LICENSE](#license)<br>
 [CONTRIBUTION](#contribution)<br>
 [TESTS](#tests)<br>
+[SCREENSHOT](#screenshot)<br>
 [QUESTIONS](#questions)
 
 ## INSTALLATION 
@@ -52,10 +53,6 @@ Please copy the following files and folder to your computer and test this applic
 * Folder: routes
 *  -> File: index.js
 *  -> File: notes.js
-
-## DEMO
-[Demo video](https://drive.google.com/file/d/1bFFJH4LCBmu0rfOSVKYlo7GwiIxnL6NE/view)<br>
-[Demo video (another link)](https://watch.screencastify.com/v/1GZoejtSfryKScVO9wTv)
 
 ## SCREENSHOT
 ![image](https://user-images.githubusercontent.com/121307266/218576452-db4138b6-1b2f-4dd8-8fca-d94d61a344ab.png)
