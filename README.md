@@ -15,13 +15,12 @@ Save them by clicking the file icon (at top right corner of the page) and delete
 [QUESTIONS](#questions)
 
 ## INSTALLATION 
-This application requires 1.JavaScript, 2.Node.JS (version 16, not the latest), 3.Command line and 4.Node package manager to run. In a blank folder, please put index.js and package.json and a folder named lib. In the folder "lib", put shapes.js. Once all the necessary files are added, open the command line and move to this project folder. Type "npm install" and confirm that a folder called "node_modules" and a file called package-lock.json are created. This application uses the following libraries:
-* inquirer (please use version 8.2.4)
-* inquirer-maxlength-input-prompt (add-on of inquirer)
-* jest
+This application requires 1.JavaScript, 2.Node.JS (version 16, not the latest) and 3.Node package manager to run. In a blank folder, please put necessary files (please refer to the TESTS section for the details) and open the command line. In the command line, move to this folder and then type "npm install". Make sure that a folder called "node_modules" and a file called package-lock.json are created. This application uses the following libraries:
+* express
+* uuid
 
 ## USAGE 
-First, make sure that all the necessary files are in your project folder (if not, refer to the INSTALLATION section). Open command line and move to this folder first. Type "node index.js" in the command line and answer the questions. You need to type your answers in command line for most of the questions. User inputs need to follow the instructions. For the shape, choose one from the list. Once you complete answering all the questions, you can find a SVG file in the folder "examples".
+First, make sure that all the necessary files are in your project folder (if not, refer to the INSTALLATION section). Open command line and move to this folder first. Type "npm start" in the command line and you'll see a  message "App listening at http://localhost:3001 🚀". Go to a web browser and type this URL. It will take you to the landing page. Click the "" button to go to the note section. Once you
 
 ## LICENSE 
 MIT:<br>
