@@ -1,10 +1,10 @@
 # Challenge 11 - Express : Easy Notetaker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## DESCRIPTION 
-This application enables you to create a list of notes with only a few steps! Go to the webpage and input the following information:
+This application enables you to create a list of notes with only a few steps! Go to the webpage and input the information below.
+<br>Save them by clicking the file icon (at top right corner of the page) and delete them by clicking the red bin icon (in the list on the left sideof the page) if you'd like!
 * Title of the note
 * Contents (texts)<br>
-Save them by clicking the file icon (at top right corner of the page) and delete them by clicking the red bin icon (in the list on the left sideof the page) if you'd like!
 
 ## TABLE OF CONTENTS
 [INSTALLATION](#installation)<br>
@@ -36,23 +36,22 @@ Please feel free to develop this application by forking the GitHub repository an
 
 ## TESTS 
 Please copy the following files and folder to your computer and test this application:
-* File: server.js
-* File: package.json 
-* Folder: db 
-*  -> File: db.json
-* Folder: helpers
-*  -> File: fsUtils.js
-* Folder: Public
-*  -> File: index.html
-*  -> File: notes.html
-*  -> Folder: assets
-*    -> Folder: css
-*      -> File: styles.css
-*    -> Folder: js
-*      -> File: index.js
-* Folder: routes
-*  -> File: index.js
-*  -> File: notes.js
+```md
+.
+├── db/db.json
+├── helpers/fsUtils.js
+├── public/               
+|   ├── assets/           
+|   |   ├── css/styles.css
+|   |   └── js/index.js     
+|   ├── index.html         
+|   └── notes.html        
+├── routes/
+|   ├── index.js
+|   └── notes.js          
+├── package.json
+└── server.js  
+``` 
 
 ## SCREENSHOT
 ![image](https://user-images.githubusercontent.com/121307266/218576452-db4138b6-1b2f-4dd8-8fca-d94d61a344ab.png)
