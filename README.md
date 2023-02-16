@@ -1,8 +1,7 @@
 # Challenge 11 - Express : Easy Notetaker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## DESCRIPTION 
-This application enables you to create a list of notes with only a few steps! Go to the webpage and input the information below.
-<br>Save them by clicking the file icon (at top right corner of the page) and delete them by clicking the red bin icon (in the list on the left sideof the page) if you'd like!
+This application enables you to create a list of notes with only a few steps! Go to the webpage and input the information below. You can easily save and delete tasks.
 * Title of the note
 * Contents (texts)<br>
 

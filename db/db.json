@@ -1,7 +1,17 @@
 [
     {
-        "title": "Test 3 - title",
-        "text": "Test 3 - text",
-        "note_id": "424a688f-8be4-4549-9b50-34b2008a7ef9"
+        "title": "Grocery",
+        "text": "Go to FoodBasics and buy eggs",
+        "note_id": "28c66317-ff4b-4d33-b73d-f3615e2e19b5"
+    },
+    {
+        "title": "Laundry",
+        "text": "Need to charge the laundry card first",
+        "note_id": "86a1a7c8-49c0-4f8e-a7ea-d20681383cf4"
+    },
+    {
+        "title": "Complete a challenge",
+        "text": "Complete challenge 11 by Thursday night",
+        "note_id": "f0c8c510-1897-46dd-8bbb-1db3ac001027"
     }
 ]
