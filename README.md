@@ -3,7 +3,7 @@
 ## DESCRIPTION 
 This application enables you to create a list of notes with only a few steps! Go to the webpage and input the information below. You can easily save and delete tasks.
 * Title of the note
-* Contents (texts)<br>
+* Contents (texts)
 
 ## TABLE OF CONTENTS
 [INSTALLATION](#installation)<br>
@@ -15,6 +15,10 @@ This application enables you to create a list of notes with only a few steps! Go
 [QUESTIONS](#questions)
 
 ## INSTALLATION 
+### HEROKU
+If you use the application on Heroku, no installation is needed. Go to the webpage directly: <br>
+### LOCAL COMPUTER
+If you'd like to use the application on your local computer, follow the guidelines below:<br>
 This application requires 1.JavaScript, 2.Node.JS (version 16, not the latest) and 3.Node package manager to run. In a blank folder, please put necessary files (please refer to the TESTS section for the details) and open the command line. In the command line, move to this folder and then type "npm install". Make sure that a folder called "node_modules" and a file called package-lock.json are created. This application uses the following libraries:
 * express
 * uuid
