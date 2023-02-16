@@ -20,7 +20,7 @@ This application requires 1.JavaScript, 2.Node.JS (version 16, not the latest) a
 * uuid
 
 ## USAGE 
-First, make sure that all the necessary files are in your project folder (if not, refer to the INSTALLATION section). Open command line and move to this folder first. Type "npm start" in the command line and you'll see a  message "App listening at http://localhost:3001 🚀". Go to a web browser and type this URL. It will take you to the landing page. Click the "" button to go to the note section. Once you
+First, make sure that all the necessary files are in your project folder (if not, refer to the INSTALLATION section). Open command line and move to this folder first. Type "npm start" in the command line and you'll see a  message "App listening at http://localhost:3001 🚀". Go to a web browser and type this URL. It will take you to the landing page. Click the "" button to go to the note section. Once you're in the note section, you can see saved notes on the left side of the page and you can create a new note on the right side of the page. If you'd like to delete a note, click a red bin icon. If you'd like to save a new note, type the title and content (text) of your new note and click the file icon on top right. Click the title of the page to go back to the landing page of this application.
 
 ## LICENSE 
 MIT:<br>
@@ -35,10 +35,23 @@ Please feel free to develop this application by forking the GitHub repository an
 
 ## TESTS 
 Please copy the following files and folder to your computer and test this application:
-* index.js file
-* package.json 
-* folder "lib" and shapes.js (you need "shapes.test.js" as well if you would like to test Shape classes: Circle, Square and Triangle)
-* folder "examples"
+* File: server.js
+* File: package.json 
+* Folder: db 
+*  -> File: db.json
+* Folder: helpers
+*  -> File: fsUtils.js
+* Folder: Public
+*  -> File: index.html
+*  -> File: notes.html
+*  -> Folder: assets
+*    -> Folder: css
+*      -> File: styles.css
+*    -> Folder: js
+*      -> File: index.js
+* Folder: routes
+*  -> File: index.js
+*  -> File: notes.js
 
 ## DEMO
 [Demo video](https://drive.google.com/file/d/1bFFJH4LCBmu0rfOSVKYlo7GwiIxnL6NE/view)<br>
